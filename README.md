@@ -17,9 +17,10 @@ Pretty much the name of the file gives it away. It automates opening a vite proj
 I assume that you have a dir for only vite apps. If not, it will still run but may not run the proper script to launch the dev environment.
 
 The script has three variables:
-1 `projectLocations` is the path to your vite apps.
-2 `editorOfChoice` for me, it is codium but for you it may be vscode
-3 `port` by default it is set to `3000` but you can change it if needed
+
+1. `projectLocations` is the path to your vite apps.
+2. `editorOfChoice` for me, it is codium but for you it may be vscode
+3. `port` by default it is set to `3000` but you can change it if needed
 
 Hope this is useful for you.
 
