@@ -7,7 +7,7 @@ editorOfChoice=codium
 
 projectActions="$(cd $projectLocations/ && ls -A)"
 
-select project in ${projectActions}; do cd $projectLocations/${project} && editorOfChoice $projectLocations/${project}; break;
+select project in ${projectActions}; do cd $projectLocations/${project} && $editorOfChoice $projectLocations/${project}; break;
 done
 
 # This works on Linux only
