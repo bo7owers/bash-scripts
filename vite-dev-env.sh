@@ -6,9 +6,9 @@ projectLocations=~/Documents/websites/vite-apps
 editorOfChoice=codium
 port=3000
 
-projectActions="$(cd $projectLocations/ && ls -A)"
+projectOptions="$(cd $projectLocations/ && ls -A)"
 
-select project in ${projectActions}; do cd $projectLocations/${project} && $editorOfChoice $projectLocations/${project}; break;
+select project in ${projectOptions}; do cd $projectLocations/${project} && $editorOfChoice $projectLocations/${project}; break;
 done
 
 # This works on Linux only
