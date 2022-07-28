@@ -8,7 +8,7 @@ port=3000
 
 projectOptions="$(cd $projectLocations/ && ls -A)"
 
-select project in ${projectOptions}; do cd $projectLocations/${project} && $editorOfChoice $projectLocations/${project}; break;
+select project in ${projectOptions}; do cd $projectLocations/${project} && $editorOfChoice .; break;
 done
 
 # This works on Linux only
