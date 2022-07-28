@@ -4,6 +4,7 @@
 
 projectLocations=~/Documents/websites/vite-apps
 editorOfChoice=codium
+port=3000
 
 projectActions="$(cd $projectLocations/ && ls -A)"
 
@@ -11,7 +12,7 @@ select project in ${projectActions}; do cd $projectLocations/${project} && $edit
 done
 
 # This works on Linux only
-xdg-open http://localhost:3000/ 
+xdg-open http://localhost:$port/ 
 npm run dev
 
 
