@@ -13,7 +13,7 @@ done
 
 # This works on Linux only
 xdg-open http://localhost:$port/ 
-npm run dev
+yarn dev
 
 
 
