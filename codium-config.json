@@ -1,0 +1,33 @@
+{
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    "editor.cursorStyle": "block",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "workbench.startupEditor": "none",
+    "git.enableSmartCommit": true,
+    "git.postCommitCommand": "push",
+    "git.confirmSync": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "fiveServer.browser": ["Firefox"],
+    "editor.formatOnSave": true,
+    "editor.hover.delay": 600,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 5000,
+    "editor.wordWrap": "bounded",
+    "[rust]": {
+        "editor.defaultFormatter": "matklad.rust-analyzer"
+    },
+    "editor.fontLigatures": true,
+    "window.commandCenter": true,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.productIconTheme": "material-product-icons",
+    "security.workspace.trust.untrustedFiles": "open",
+    "githubPullRequests.createOnPublishBranch": "never",
+    "prettier.jsxSingleQuote": true,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4
+}
